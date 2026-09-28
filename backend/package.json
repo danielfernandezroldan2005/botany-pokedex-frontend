@@ -1,0 +1,24 @@
+{
+  "name": "botany-pokedex-backend",
+  "version": "1.0.0",
+  "description": "BFF for Clasification Multimodal of Plants with Gemini API.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0"
+  }
+}
